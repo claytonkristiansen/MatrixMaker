@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MatrixMaker": {
+      "commandName": "Project",
+      "workingDirectory": "$(SolutionDir)"
+    }
+  }
+}
