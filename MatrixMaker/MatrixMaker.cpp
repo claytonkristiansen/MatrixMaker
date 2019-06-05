@@ -3,6 +3,25 @@
 
 #include "pch.h"
 #include <iostream>
+#include <list>
+#include <fstream>
+#include <string>
+
+class School
+{
+	float m_tuition;
+	std::string m_region;
+};
+
+std::list<School> ParseSchoolListCSV(std::string filePath)
+{
+	// file pointer 
+	std::fstream fin;
+	std::string line;
+	// opens an existing csv file or creates a new file. 
+	fin.open("Assets/SchoolData.csv", std::ios::in);
+	std::getline(fin, line);
+}
 
 int main()
 {
