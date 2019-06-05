@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MatrixMakerTEMP
+namespace MatrixMaker
 {
     class Program
     {
