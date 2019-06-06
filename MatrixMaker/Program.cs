@@ -84,7 +84,7 @@ namespace MatrixMaker
                 "Rocky Mountains CO ID MT UT WY",
                 "Southeast AL AR FL GA KY LA MS NC SC TN VA WV",
                 "Southwest AZ NM OK TX" };
-            float[] columns = new float[] {0, 5000.0f, 10000.0f, 15000.0f, 20000.0f, 25000.0f, 30000.0f, 35000.0f, 40000.0f, 45000.0f, 50000.0f };
+            float[] columns = new float[] {0, 10000.0f, 20000.0f, 30000.0f, 40000.0f, 50000.0f };
             int[,] matrix = GenerateMatrix(list, rows, columns);
             PrintMatrix(matrix, "Assets/MatrixOutput.csv");
             Console.WriteLine("Hello World!");
